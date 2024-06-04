@@ -3,8 +3,10 @@ from PIL import Image
 from Massaki01 import *
 
 def main():
-   Configurar_Pagina("ACT - Soluções para Pessoas/TESTE", "amplo", "auto", "https://docs.streamlit.io", "mailto:informacoes.actsp@gmail.com", "#### **ACT - Soluções para Pessoas**. Você pode usar formatação Markdown para adicionar informações neste espaço. Para mais informações acesse *https://www.markdownguide.org*", "	©️")
-  
+   Configurar_Pagina("WebApp01 - TESTE", "amplo", "auto", "https://docs.streamlit.io", "mailto:prof.massaki@gmail.com", "#### Aplicativo Teste", "©️")
+   Titulo("MEU PRIMEIRO APLICATIVO WEB")
+   st.header("Desenvolvido por Massaki de O. Igarashi")
+   
    MKD(Versao(), 'left', 18, 'blue')
       
    MKD('⬜ Massaki01 - Biblioteca teste', 'left', 48, 'darkblue')
